@@ -7,28 +7,20 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class Admin
+    public class AdminApplicant
     {
+        [Key]
         public int ID { get; set; }
 
         [Required]
-        [StringLength(50)]
         public string Name { get; set; }
-
         [Required]
-        [StringLength(50)]
+        public string Username { get; set; }
+        [Required]
         public string Email { get; set; }
-
         [Required]
-        [StringLength(50)]
         public string Password { get; set; }
-
         [Required]
-        [StringLength(50)]
         public string Phone { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        public string Address { get; set; }
     }
 }
