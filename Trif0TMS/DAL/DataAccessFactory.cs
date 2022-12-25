@@ -35,5 +35,10 @@ namespace DAL
         {
             return new TokenRepo();
         }
+
+        public static IRepo<Notice, int, Notice> NoticeDataAccess()
+        {
+            return new NoticeRepo();
+        }
     }
 }

@@ -48,6 +48,20 @@
                 });
             }
             context.AdminApplicants.AddOrUpdate(adminApplicants.ToArray());
+
+            List<Notice> notices = new List<Notice>();
+            for (int i = 1; i <= 6; i++)
+            {
+                notices.Add(new Notice()
+                {
+                    ID = i,
+                    Title = Guid.NewGuid().ToString().Substring(0, 6),
+                    Description = Guid.NewGuid().ToString().Substring(0, 30),
+                    PublishedDate = DateTime.Now,
+                    LastDate = DateTime.MaxValue
+                });
+            }
+            context.Notices.AddOrUpdate(notices.ToArray());
         }
     }
 }
