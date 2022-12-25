@@ -31,6 +31,23 @@
                 });
             }
             context.Admins.AddOrUpdate(admins.ToArray());
+
+            List<AdminApplicant> adminApplicants = new List<AdminApplicant>();
+            for (int i = 1; i <= 6; i++)
+            {
+                adminApplicants.Add(new AdminApplicant()
+                {
+                    ID = i,
+                    Firstname = Guid.NewGuid().ToString().Substring(0, 6),
+                    Lastname = Guid.NewGuid().ToString().Substring(0, 3),
+                    Username = Guid.NewGuid().ToString().Substring(0, 4),
+                    Email = "xyz@gmail.com",
+                    Password = Guid.NewGuid().ToString().Substring(0, 8),
+                    Phone = "01XXXXXXXXX",
+                    Address = Guid.NewGuid().ToString().Substring(0, 5)
+                });
+            }
+            context.AdminApplicants.AddOrUpdate(adminApplicants.ToArray());
         }
     }
 }

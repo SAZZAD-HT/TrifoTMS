@@ -47,7 +47,6 @@ namespace BLL.Services
         {
             var data = DataAccessFactory.AdminDataAccess().Delete(id);
             return data;
-
         }
 
         public static AdminDTO Update(AdminDTO adminDTO)
@@ -60,9 +59,7 @@ namespace BLL.Services
             {
                 return mapper.Map<AdminDTO>(data);
             }
-
             return null;
-
         }
 
         public static AdminDTO GetChecker(string name)

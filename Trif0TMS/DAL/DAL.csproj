@@ -53,11 +53,14 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\Models\Admin.cs" />
+    <Compile Include="EF\Models\AdminApplicant.cs" />
     <Compile Include="EF\Models\Token.cs" />
     <Compile Include="EF\TMSEntities.cs" />
+    <Compile Include="Interface\IError.cs" />
     <Compile Include="Interface\IAuthC.cs" />
     <Compile Include="Interface\IAuth.cs" />
     <Compile Include="Interface\IRepo.cs" />
+    <Compile Include="Interface\IListofID.cs" />
     <Compile Include="Migrations\202212251614453_Admin_Token_Table_Insertion.cs" />
     <Compile Include="Migrations\202212251614453_Admin_Token_Table_Insertion.designer.cs">
       <DependentUpon>202212251614453_Admin_Token_Table_Insertion.cs</DependentUpon>
@@ -70,8 +73,17 @@
     <Compile Include="Migrations\202212251841132_Updated_Admin_Token_Table.designer.cs">
       <DependentUpon>202212251841132_Updated_Admin_Token_Table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212252042412_AdminApplicant_Table_Insertion.cs" />
+    <Compile Include="Migrations\202212252042412_AdminApplicant_Table_Insertion.designer.cs">
+      <DependentUpon>202212252042412_AdminApplicant_Table_Insertion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212252048229_Updated_AdminApplicant_Table.cs" />
+    <Compile Include="Migrations\202212252048229_Updated_AdminApplicant_Table.designer.cs">
+      <DependentUpon>202212252048229_Updated_AdminApplicant_Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\AdminApplicant.cs" />
     <Compile Include="Repos\AdminRepo.cs" />
     <Compile Include="Repos\ERepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
@@ -89,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212251841132_Updated_Admin_Token_Table.resx">
       <DependentUpon>202212251841132_Updated_Admin_Token_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212252042412_AdminApplicant_Table_Insertion.resx">
+      <DependentUpon>202212252042412_AdminApplicant_Table_Insertion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212252048229_Updated_AdminApplicant_Table.resx">
+      <DependentUpon>202212252048229_Updated_AdminApplicant_Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

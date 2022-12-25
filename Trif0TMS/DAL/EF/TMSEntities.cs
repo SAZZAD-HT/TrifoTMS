@@ -12,5 +12,6 @@ namespace DAL.EF
     {
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Token> Tokens { get; set; }
+        public DbSet<AdminApplicant> AdminApplicants { get; set; }
     }
 }

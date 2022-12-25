@@ -26,6 +26,11 @@ namespace DAL
             return new AdminRepo();
         }
 
+        public static IRepo<AdminApplicant, int, AdminApplicant> ApplicantDataAccess()
+        {
+            return new AdminApplicantRepo();
+        }
+
         public static IRepo<Token, string, Token> TokenDataAccess()
         {
             return new TokenRepo();

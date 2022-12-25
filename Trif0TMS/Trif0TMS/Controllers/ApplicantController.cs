@@ -13,17 +13,17 @@ namespace Trif0TMS.Controllers
 {
     [EnableCors("*", "*", "*")]
     [Logged]
-    public class AdminController : ApiController
+    public class ApplicantController : ApiController
     {
         [HttpPost]
-        [Route("api/admin/add")]
-        public HttpResponseMessage Register(AdminDTO admin)
+        [Route("api/applicant/add")]
+        public HttpResponseMessage Register(AdminApplicantDTO adminapplicant)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var data = AdminService.Add(admin);
+                    var data = AdminApplicantService.Add(adminapplicant);
                     return Request.CreateResponse(HttpStatusCode.OK, data);
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
@@ -35,12 +35,12 @@ namespace Trif0TMS.Controllers
         }
 
         [HttpGet]
-        [Route("api/admin/list")]
-        public HttpResponseMessage GetAllAdmins()
+        [Route("api/applicant/list")]
+        public HttpResponseMessage GetAllApplicants()
         {
             try
             {
-                var data = AdminService.Get();
+                var data = AdminApplicantService.Get();
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -50,12 +50,27 @@ namespace Trif0TMS.Controllers
         }
 
         [HttpGet]
-        [Route("api/admin/{id}")]
-        public HttpResponseMessage GetSingleAdmin(int id)
+        [Route("api/applicant/{id}")]
+        public HttpResponseMessage GetSingleApplicant(int id)
         {
             try
             {
-                var data = AdminService.Get(id);
+                var data = AdminApplicantService.Get(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
+        }
+
+        [HttpDelete]
+        [Route("api/applicant/delete/{id}")]
+        public HttpResponseMessage DeleteApplicant(int id)
+        {
+            try
+            {
+                var data = AdminApplicantService.Delete(id);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -65,27 +80,12 @@ namespace Trif0TMS.Controllers
         }
 
         [HttpPost]
-        [Route("api/admin/delete/{id}")]
-        public HttpResponseMessage DeleteAdmin(int id)
+        [Route("api/applicant/update")]
+        public HttpResponseMessage UpdateApplicant(AdminApplicantDTO adminapplicant)
         {
             try
             {
-                var data = AdminService.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
-            }
-        }
-
-        [HttpPost]
-        [Route("api/admin/update")]
-        public HttpResponseMessage UpdateAdmin(AdminDTO admin)
-        {
-            try
-            {
-                var data = AdminService.Update(admin);
+                var data = AdminApplicantService.Update(adminapplicant);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -95,13 +95,13 @@ namespace Trif0TMS.Controllers
         }
 
         [HttpGet]
-        [Route("api/alladmin/list/count")]
-        public HttpResponseMessage AllAdminsCount()
+        [Route("api/allapplicant/count")]
+        public HttpResponseMessage AllApplicantsCount()
         {
             try
             {
-                var data3=AdminService.Get().Count;
-                List<int> numberList = new List<int>() { data3 };
+                var data = AdminApplicantService.Get().Count;
+                List<int> numberList = new List<int>() { data };
                 return Request.CreateResponse(HttpStatusCode.OK, numberList);
             }
             catch (Exception ex)
@@ -111,12 +111,12 @@ namespace Trif0TMS.Controllers
         }
 
         [HttpGet]
-        [Route("api/admin/get/{email}")]
-        public HttpResponseMessage GetSingleAdminByEmail(string eamil)
+        [Route("api/applicant/{email}")]
+        public HttpResponseMessage GetSingleApplicantByEmail(string eamil)
         {
             try
             {
-                var data = AdminService.GetChecker(eamil);
+                var data = AdminApplicantService.GetChecker(eamil);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)

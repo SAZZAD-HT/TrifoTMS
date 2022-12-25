@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class AdminRepo : ERepo, IRepo<Admin, int, Admin>, IAuth<Admin, int>, AuthC<Admin, string>
+    internal class AdminApplicantRepo : ERepo, IRepo<AdminApplicant, int, AdminApplicant>, AuthC<AdminApplicant, string>
     {
-        public Admin Add(Admin obj)
+        public AdminApplicant Add(AdminApplicant obj)
         {
-            db.Admins.Add(obj);
+            db.AdminApplicants.Add(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
@@ -20,16 +20,10 @@ namespace DAL.Repos
             return null;
         }
 
-        public Admin Authenticate(string email, string pass)
-        {
-            var obj = db.Admins.FirstOrDefault(x => x.Email.Equals(email) && x.Password.Equals(pass));
-            return obj;
-        }
-
         public bool Delete(int id)
         {
-            var data = db.Admins.Find(id);
-            db.Admins.Remove(data);
+            var data = db.AdminApplicants.Find(id);
+            db.AdminApplicants.Remove(data);
             if (db.SaveChanges() > 0)
             {
                 return true;
@@ -37,23 +31,23 @@ namespace DAL.Repos
             return false;
         }
 
-        public List<Admin> Get()
+        public List<AdminApplicant> Get()
         {
-            return db.Admins.ToList();
+            return db.AdminApplicants.ToList();
         }
 
-        public Admin Get(int id)
+        public AdminApplicant Get(int id)
         {
-            return db.Admins.Find(id);
+            return db.AdminApplicants.Find(id);
         }
 
-        public Admin GetChecker(string email)
+        public AdminApplicant GetChecker(string id)
         {
-            var obj = db.Admins.FirstOrDefault(x => x.Email.Equals(email));
+            var obj = db.AdminApplicants.FirstOrDefault(x => x.ID.Equals(id));
             return obj;
         }
 
-        public Admin Update(Admin obj)
+        public AdminApplicant Update(AdminApplicant obj)
         {
             var data = Get(obj.ID);
             db.Entry(data).CurrentValues.SetValues(obj);
