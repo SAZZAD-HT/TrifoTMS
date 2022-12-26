@@ -42,7 +42,7 @@ namespace Trif0TMS.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("api/Logout/{token}")]
         public HttpResponseMessage Logout(string token)
         {
