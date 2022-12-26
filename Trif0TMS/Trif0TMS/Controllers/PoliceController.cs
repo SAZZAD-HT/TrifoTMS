@@ -12,7 +12,7 @@ using System.Web.Http.Cors;
 namespace Trif0TMS.Controllers
 {
     [EnableCors("*", "*", "*")]
-    //[Logged]
+    [Logged]
     public class PoliceController : ApiController
     {
         [HttpPost]
