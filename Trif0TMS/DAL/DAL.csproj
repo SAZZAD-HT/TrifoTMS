@@ -54,7 +54,9 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\Models\Admin.cs" />
     <Compile Include="EF\Models\AdminApplicant.cs" />
+    <Compile Include="EF\Models\Case.cs" />
     <Compile Include="EF\Models\Notice.cs" />
+    <Compile Include="EF\Models\Police.cs" />
     <Compile Include="EF\Models\Token.cs" />
     <Compile Include="EF\TMSEntities.cs" />
     <Compile Include="Interface\IError.cs" />
@@ -86,12 +88,19 @@
     <Compile Include="Migrations\202212252152205_Notice_Table_Insertion.designer.cs">
       <DependentUpon>202212252152205_Notice_Table_Insertion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212252330246_Police_Case_Table_Insertion.cs" />
+    <Compile Include="Migrations\202212252330246_Police_Case_Table_Insertion.designer.cs">
+      <DependentUpon>202212252330246_Police_Case_Table_Insertion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\AdminApplicant.cs" />
     <Compile Include="Repos\AdminRepo.cs" />
     <Compile Include="Repos\ERepo.cs" />
+    <Compile Include="Repos\ErrorRepo.cs" />
+    <Compile Include="Repos\CaseRepo.cs" />
     <Compile Include="Repos\NoticeRepo.cs" />
+    <Compile Include="Repos\PoliceRepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212252152205_Notice_Table_Insertion.resx">
       <DependentUpon>202212252152205_Notice_Table_Insertion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212252330246_Police_Case_Table_Insertion.resx">
+      <DependentUpon>202212252330246_Police_Case_Table_Insertion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -269,6 +269,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\NoticeController.cs" />
+    <Compile Include="Controllers\PoliceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -316,6 +317,7 @@
     <Folder Include="Models\" />
     <Folder Include="Views\Applicant\" />
     <Folder Include="Views\Notice\" />
+    <Folder Include="Views\Police\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

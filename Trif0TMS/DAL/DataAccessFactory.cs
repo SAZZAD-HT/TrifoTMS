@@ -3,6 +3,7 @@ using DAL.Interface;
 using DAL.Repo;
 using DAL.Repos;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,6 +40,25 @@ namespace DAL
         public static IRepo<Notice, int, Notice> NoticeDataAccess()
         {
             return new NoticeRepo();
+        }
+
+        public static IRepo<Police, int, Police> PoliceDataAccess()
+        {
+            return new PoliceRepo();
+        }
+        public static IAuth<Police, int> PoliceAuthDataAccess()
+        {
+            return new PoliceRepo();
+        }
+
+        public static AuthC<Police, string> PoliceAuthCheckerDataAccess()
+        {
+            return new PoliceRepo();
+        }
+
+        public static IRepo<Case, int, Case> CaseDataAccess()
+        {
+            return new CaseRepo();
         }
     }
 }

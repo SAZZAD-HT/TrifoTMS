@@ -14,5 +14,7 @@ namespace DAL.EF
         public DbSet<Token> Tokens { get; set; }
         public DbSet<AdminApplicant> AdminApplicants { get; set; }
         public DbSet<Notice> Notices { get; set; }
+        public DbSet<Police> Polices { get; set; }
+        public DbSet<Case> Cases { get; set; }
     }
 }

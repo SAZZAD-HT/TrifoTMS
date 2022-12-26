@@ -1,3 +1,4 @@
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Trif0TMS.dll.config
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Trif0TMS.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Trif0TMS.pdb
@@ -8,7 +9,6 @@ C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\csi.exe
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\csi.exe.config
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\csi.rsp
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll

@@ -57,15 +57,20 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\AdminApplicantDTO.cs" />
     <Compile Include="DTOs\AdminDTO.cs" />
+    <Compile Include="DTOs\CaseDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\NoticeDTO.cs" />
+    <Compile Include="DTOs\PoliceCaseDTO.cs" />
+    <Compile Include="DTOs\PoliceDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AdminApplicantService.cs" />
     <Compile Include="Services\AdminService.cs" />
     <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\MapServices.cs" />
+    <Compile Include="Services\CaseService.cs" />
     <Compile Include="Services\NoticeService.cs" />
+    <Compile Include="Services\PoliceService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
