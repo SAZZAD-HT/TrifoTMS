@@ -13,6 +13,8 @@ C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.Migrations.AdminA
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.Migrations.Updated_AdminApplicant_Table.resources
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.Migrations.Notice_Table_Insertion.resources
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.Migrations.Police_Case_Table_Insertion.resources
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.Migrations.Fare_Table_Insertion.resources
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.Migrations.Trip_Table_Insertion.resources
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\DAL\obj\Debug\DAL.csproj.CopyComplete

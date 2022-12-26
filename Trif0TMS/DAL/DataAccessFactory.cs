@@ -60,5 +60,15 @@ namespace DAL
         {
             return new CaseRepo();
         }
+
+        public static IRepo<Fare, int, Fare> FareDataAccess() 
+        {
+            return new FareRepo();
+        }
+
+        public static IRepo<Trip, int, Trip> TripDataAccess()
+        {
+            return new TripRepo();
+        }
     }
 }

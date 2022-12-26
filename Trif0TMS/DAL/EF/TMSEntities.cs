@@ -16,5 +16,7 @@ namespace DAL.EF
         public DbSet<Notice> Notices { get; set; }
         public DbSet<Police> Polices { get; set; }
         public DbSet<Case> Cases { get; set; }
+        public DbSet<Fare> Fares { get; set; }
+        public DbSet<Trip> Trips { get; set; }
     }
 }

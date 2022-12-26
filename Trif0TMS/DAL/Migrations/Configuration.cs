@@ -4,6 +4,7 @@
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
+    using System.Data.Entity.Core.Metadata.Edm;
     using System.Data.Entity.Migrations;
     using System.Linq;
     using System.Text.RegularExpressions;
@@ -62,6 +63,30 @@
                 });
             }
             context.Notices.AddOrUpdate(notices.ToArray());
+
+            Random rand = new Random();
+            List<Fare> fares = new List<Fare>();
+            for (int i = 1; i <= 6; i++)
+            {
+                fares.Add(new Fare()
+                {
+                    Route_Id = i,
+                    Distance = rand.Next(1, 50),
+                    Fare1 = rand.Next(10, 100)
+                });
+            }
+            context.Fares.AddOrUpdate(fares.ToArray());
+
+            List<Trip> trips = new List<Trip>();
+            for (int i = 1; i <= 1; i++)
+            {
+                trips.Add(new Trip()
+                {
+                    session = i,
+                    Start = "Kuril"
+                });
+            }
+            context.Trips.AddOrUpdate(trips.ToArray());
         }
     }
 }
