@@ -64,7 +64,7 @@ namespace Trif0TMS.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpDelete]
         [Route("api/admin/delete/{id}")]
         public HttpResponseMessage DeleteAdmin(int id)
         {
