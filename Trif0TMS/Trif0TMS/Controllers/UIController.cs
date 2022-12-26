@@ -8,7 +8,7 @@ namespace Trif0TMS.Controllers
 {
     public class UIController : Controller
     {
-        public ActionResult Image()
+        public ActionResult Home()
         {
             return View();
         }
