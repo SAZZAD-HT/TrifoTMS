@@ -16,7 +16,7 @@ namespace Trif0TMS
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "UI", action = "Image", id = UrlParameter.Optional }
+                defaults: new { controller = "UI", action = "Home", id = UrlParameter.Optional }
             );
         }
     }
