@@ -1,3 +1,38 @@
+<p align="center">
+<h2 align="center">Banking Management System</h2>
+<table align="center">
+  <tr>
+  	<th colspan="4"><h3><a href="https://www.aiub.edu">American International University-Bangladesh(AIUB)</a></h3></th>
+  </tr>
+  
+  <tr>
+  	<th colspan="4"><h3>CSC3215	WEB TECHNOLOGIES</h3></th>
+  </tr>
+  
+  <tr>
+  	<th colspan="4">Course Teacher: <a href="https://github.com/hsazzad-prog">SAZZAD HOSSAIN</a></th>
+  </tr>
+  
+  <tr>
+    <th>Name</th>
+    <th>ID</th>
+    <th>Section</th>
+  </tr>
+  
+  <tr>
+    <td><a href="https://github.com/aftabrakinsad">RAKIN SAD AFTAB</a></td>
+    <td>20-41991-1</td>
+    <td align="center">C</td>
+  </tr>
+  
+  <tr>
+    <td><a href="https://github.com/SAZZAD-HT">SAZZAD HOSSAIN TASNIM</a></td>
+    <td>20-43045-1</td>
+    <td align="center">L</td>
+  </tr>
+</table>
+</p>
+
 # TrifoTMS - Trip with System
 <p align="justify">Trifo & TMS stands for you are on a trip and Transport Management System, respectively. TrifoTMS is an academic course(Advance Programming with . NET) project. In this project, we implemented the backend and showcased it with API(Postman).<p>
   
