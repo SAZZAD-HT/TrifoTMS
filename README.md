@@ -28,7 +28,7 @@
   <tr>
     <td><a href="https://github.com/SAZZAD-HT">SAZZAD HOSSAIN TASNIM</a></td>
     <td>20-43045-1</td>
-    <td align="center">L</td>
+    <td align="center">C</td>
   </tr>
 </table>
 </p>
