@@ -1,6 +1,4 @@
-C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Memory.dll
-C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.Mvc.xml
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\EntityFramework.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Trif0TMS.dll.config
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Trif0TMS.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Trif0TMS.pdb
@@ -91,6 +89,8 @@ C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Microsoft.Web.Infrastr
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Newtonsoft.Json.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Buffers.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.ComponentModel.Annotations.dll
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Memory.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Net.Http.Formatting.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Numerics.Vectors.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Runtime.CompilerServices.Unsafe.dll
@@ -112,7 +112,6 @@ C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\AutoMapper.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\DAL.dll
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\BLL.pdb
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\BLL.dll.config
-C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\EntityFramework.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\EntityFramework.SqlServer.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\Microsoft.AspNetCore.Authentication.Core.xml
@@ -150,6 +149,7 @@ C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Text.Encodings.
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.Http.Cors.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.Helpers.xml
+C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.Mvc.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.Optimization.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.Razor.xml
 C:\Users\user\source\repos\TrifoTMS\Trif0TMS\Trif0TMS\bin\System.Web.WebPages.xml
