@@ -10,7 +10,7 @@
   </tr>
   
   <tr>
-  	<th colspan="4">Course Teacher: <a href="https://github.com/hsazzad-prog">SAZZAD HOSSAIN</a></th>
+  	<th colspan="4">Course Teacher: <a href="github.com/tanvir-ahmed-aiub">Tanvir Ahmed</a></th>
   </tr>
   
   <tr>
