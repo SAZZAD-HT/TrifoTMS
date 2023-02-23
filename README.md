@@ -1,16 +1,16 @@
 <p align="center">
-<h2 align="center">Trip Management System</h2>
+<h2 align="center">Transport Management System</h2>
 <table align="center">
   <tr>
   	<th colspan="4"><h3><a href="https://www.aiub.edu">American International University-Bangladesh(AIUB)</a></h3></th>
   </tr>
   
   <tr>
-  	<th colspan="4"><h3>CSC3215	WEB TECHNOLOGIES</h3></th>
+  	<th colspan="4"><h3>Advance Programming with Asp.Net</h3></th>
   </tr>
   
   <tr>
-  	<th colspan="4">Course Teacher: <a href="github.com/tanvir-ahmed-aiub">Tanvir Ahmed</a></th>
+  	<th colspan="4">Course Teacher: <a href="https://github.com/tanvir-ahmed-aiub">TANVIR AHMMED</a></th>
   </tr>
   
   <tr>
@@ -38,7 +38,7 @@
   
   # About
     1. Entity Framework
-    2. 3-Tier Architecture
+    2. 3-Tier Architecture(SOLID)
        2.1 Application Layer
        2.2 Data Access Layer
        2.3 Business Logic Layer
