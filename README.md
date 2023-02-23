@@ -6,11 +6,11 @@
   </tr>
   
   <tr>
-  	<th colspan="4"><h3>CSC3215	WEB TECHNOLOGIES</h3></th>
+  	<th colspan="4"><h3>Advance Programming with Asp.Net</h3></th>
   </tr>
   
   <tr>
-  	<th colspan="4">Course Teacher: <a href="https://github.com/hsazzad-prog">SAZZAD HOSSAIN</a></th>
+  	<th colspan="4">Course Teacher: <a href="https://github.com/tanvir-ahmed-aiub">TANVIR AHMMED</a></th>
   </tr>
   
   <tr>
@@ -38,7 +38,7 @@
   
   # About
     1. Entity Framework
-    2. 3-Tier Architecture
+    2. 3-Tier Architecture(SOLID)
        2.1 Application Layer
        2.2 Data Access Layer
        2.3 Business Logic Layer
