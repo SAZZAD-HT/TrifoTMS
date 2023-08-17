@@ -65,7 +65,6 @@ namespace DAL.Repo
 
         public Police GetChecker(string name)
         {
-
             var obj = db.Polices.FirstOrDefault(x => x.Name.Equals(name));
             return obj;
         }
